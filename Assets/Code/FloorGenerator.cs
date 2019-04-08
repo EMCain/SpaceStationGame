@@ -16,7 +16,6 @@ public class FloorGenerator : MonoBehaviour {
 	
 	public BuildingGenerator buildingGenerator;
 
-	public Vector3 buildingAdjust = new Vector3(0, 1f, 0);
 	void Start () {
 		player = GetComponent<Rigidbody>();
 		buildingGenerator = gameObject.GetComponent<BuildingGenerator>();
@@ -35,7 +34,7 @@ public class FloorGenerator : MonoBehaviour {
 	}
 
 	public GameObject makeNewFloor(Transform spawnObject, Vector3 position, Quaternion rotation){
-		buildingGenerator.createBuildings(position, buildingAdjust, rotation);
+		buildingGenerator.createBuildings(position, rotation);
 		return Instantiate(spawnObject, position, rotation).gameObject;
 	}
 

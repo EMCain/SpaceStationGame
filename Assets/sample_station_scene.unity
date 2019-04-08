@@ -385,7 +385,6 @@ MonoBehaviour:
   floorIndex: 0
   mostRecentFloor: {fileID: 35366343}
   buildingGenerator: {fileID: 0}
-  buildingAdjust: {x: 0, y: 1, z: 0}
 --- !u!114 &146663114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -399,6 +398,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pinkBuildingPrefab: {fileID: 1431390806318346, guid: efcd6d4d41bb64be49706a28b6b3aff6,
     type: 2}
+  greenBuildingPrefab: {fileID: 1740804667086928, guid: 3531dadc3cc014527bf64e4bc4150329,
+    type: 2}
+  domePrefab: {fileID: 1552318463409750, guid: b75fce119c0e14353a0b483b0105c4bd, type: 2}
 --- !u!1 &694916646
 GameObject:
   m_ObjectHideFlags: 0
